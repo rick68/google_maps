@@ -175,7 +175,7 @@ pub struct Place {
     ///
     /// See [PlaceOpeningHours](https://developers.google.com/maps/documentation/places/web-service/search-text#PlaceOpeningHours)
     /// for more information.
-    pub secondary_opening_hours: Option<PlaceOpeningHours>,
+    pub secondary_opening_hours: Option<Vec<PlaceOpeningHours>>,
 
     /// Specifies if the place serves beer.
     pub serves_beer: Option<bool>,
